@@ -43,10 +43,6 @@
         <key>name</key>
         <value>group</value>
       </property>
-      <property type="s">
-        <key>projectName</key>
-        <value>A2-Touchscreen</value>
-      </property>
       <property type="i">
         <key>orientation</key>
         <value>0</value>
@@ -62,6 +58,10 @@
       <property type="i">
         <key>pointerPriority</key>
         <value>0</value>
+      </property>
+      <property type="s">
+        <key>projectName</key>
+        <value>A2-Touchscreen</value>
       </property>
       <property type="i">
         <key>shape</key>
@@ -485,7 +485,7 @@
                         <properties>
                           <property type="b">
                             <key>background</key>
-                            <value>1</value>
+                            <value>0</value>
                           </property>
                           <property type="c">
                             <key>color</key>
@@ -531,7 +531,7 @@
                           </property>
                           <property type="b">
                             <key>outline</key>
-                            <value>1</value>
+                            <value>0</value>
                           </property>
                           <property type="i">
                             <key>outlineStyle</key>
@@ -577,9 +577,9 @@
                               <property type="c">
                                 <key>color</key>
                                 <value>
-                                  <r>0.0941176</r>
-                                  <g>0.823529</g>
-                                  <b>0</b>
+                                  <r>0.905882</r>
+                                  <g>0.176471</g>
+                                  <b>0.180392</b>
                                   <a>1</a>
                                 </value>
                               </property>
@@ -618,7 +618,7 @@
                               </property>
                               <property type="b">
                                 <key>outline</key>
-                                <value>1</value>
+                                <value>0</value>
                               </property>
                               <property type="i">
                                 <key>outlineStyle</key>
@@ -821,7 +821,7 @@
                               </osc>
                             </messages>
                           </node>
-                          <node ID="f5d53bcc-882e-11ec-a2bb-04922658cf47" type="TEXT">
+                          <node ID="5cc0f6f2-aefb-11ed-a785-c46516f3ed54" type="LABEL">
                             <properties>
                               <property type="b">
                                 <key>background</key>
@@ -848,14 +848,14 @@
                                 <key>frame</key>
                                 <value>
                                   <x>0</x>
-                                  <y>46</y>
+                                  <y>0</y>
                                   <w>120</w>
                                   <h>160</h>
                                 </value>
                               </property>
                               <property type="b">
                                 <key>grabFocus</key>
-                                <value>0</value>
+                                <value>1</value>
                               </property>
                               <property type="b">
                                 <key>interactive</key>
@@ -867,7 +867,7 @@
                               </property>
                               <property type="s">
                                 <key>name</key>
-                                <value>Button_Text</value>
+                                <value>Expanding Button Text</value>
                               </property>
                               <property type="i">
                                 <key>orientation</key>
@@ -887,7 +887,7 @@
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Expanding_Button_Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -897,6 +897,14 @@
                                 <key>textAlignH</key>
                                 <value>2</value>
                               </property>
+                              <property type="i">
+                                <key>textAlignV</key>
+                                <value>2</value>
+                              </property>
+                              <property type="b">
+                                <key>textClip</key>
+                                <value>1</value>
+                              </property>
                               <property type="c">
                                 <key>textColor</key>
                                 <value>
@@ -905,6 +913,10 @@
                                   <b>1</b>
                                   <a>1</a>
                                 </value>
+                              </property>
+                              <property type="i">
+                                <key>textLength</key>
+                                <value>0</value>
                               </property>
                               <property type="i">
                                 <key>textSize</key>
@@ -920,8 +932,7 @@
                                 <key>text</key>
                                 <locked>0</locked>
                                 <lockedDefaultCurrent>1</lockedDefaultCurrent>
-                                <default>Ch
-01</default>
+                                <default>Ch 01</default>
                                 <defaultPull>0</defaultPull>
                               </value>
                               <value>
@@ -3308,9 +3319,9 @@ Macros
                               <property type="c">
                                 <key>color</key>
                                 <value>
-                                  <r>0.0941176</r>
-                                  <g>0.823529</g>
-                                  <b>0</b>
+                                  <r>0.905882</r>
+                                  <g>0.176471</g>
+                                  <b>0.180392</b>
                                   <a>1</a>
                                 </value>
                               </property>
@@ -3500,7 +3511,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -3875,7 +3886,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -4250,7 +4261,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -4625,7 +4636,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -5000,7 +5011,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -5375,7 +5386,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -5750,7 +5761,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -6125,7 +6136,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -6500,7 +6511,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -6875,7 +6886,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -7250,7 +7261,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -7625,7 +7636,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -8000,7 +8011,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -8375,7 +8386,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -8750,7 +8761,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -9125,7 +9136,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -9500,7 +9511,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -9875,7 +9886,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -10250,7 +10261,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -10625,7 +10636,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -11000,7 +11011,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -11375,7 +11386,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -11750,7 +11761,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -12125,7 +12136,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -12500,7 +12511,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -12875,7 +12886,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -13250,7 +13261,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -13625,7 +13636,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -14000,7 +14011,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -14375,7 +14386,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -14750,7 +14761,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -15125,7 +15136,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -15518,9 +15529,9 @@ Macros
                               <property type="c">
                                 <key>color</key>
                                 <value>
-                                  <r>0.0941176</r>
-                                  <g>0.823529</g>
-                                  <b>0</b>
+                                  <r>0.905882</r>
+                                  <g>0.176471</g>
+                                  <b>0.180392</b>
                                   <a>1</a>
                                 </value>
                               </property>
@@ -15710,7 +15721,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -16085,7 +16096,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -16460,7 +16471,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -16835,7 +16846,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -17210,7 +17221,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -17585,7 +17596,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -17960,7 +17971,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -18335,7 +18346,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -18710,7 +18721,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -19085,7 +19096,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -19460,7 +19471,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -19835,7 +19846,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -20210,7 +20221,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -20585,7 +20596,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -20960,7 +20971,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -21335,7 +21346,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -21710,7 +21721,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -22085,7 +22096,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -22460,7 +22471,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -22835,7 +22846,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -23210,7 +23221,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -23585,7 +23596,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -23960,7 +23971,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -24335,7 +24346,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -24710,7 +24721,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -25085,7 +25096,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -25460,7 +25471,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -25835,7 +25846,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -26210,7 +26221,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -26585,7 +26596,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -26960,7 +26971,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -27335,7 +27346,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -27728,9 +27739,9 @@ Macros
                               <property type="c">
                                 <key>color</key>
                                 <value>
-                                  <r>0.0941176</r>
-                                  <g>0.823529</g>
-                                  <b>0</b>
+                                  <r>0.905882</r>
+                                  <g>0.176471</g>
+                                  <b>0.180392</b>
                                   <a>1</a>
                                 </value>
                               </property>
@@ -27920,7 +27931,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -28295,7 +28306,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -28670,7 +28681,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -29045,7 +29056,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -29420,7 +29431,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -29795,7 +29806,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -30170,7 +30181,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -30545,7 +30556,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -30920,7 +30931,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -31295,7 +31306,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -31670,7 +31681,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -32045,7 +32056,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -32420,7 +32431,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -32795,7 +32806,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -33170,7 +33181,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -33545,7 +33556,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -33920,7 +33931,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -34295,7 +34306,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -34670,7 +34681,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -35045,7 +35056,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -35420,7 +35431,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -35795,7 +35806,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -36170,7 +36181,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -36545,7 +36556,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -36920,7 +36931,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -37295,7 +37306,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -37670,7 +37681,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -38045,7 +38056,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -38420,7 +38431,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -38795,7 +38806,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -39170,7 +39181,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -39545,7 +39556,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -39938,9 +39949,9 @@ Macros
                               <property type="c">
                                 <key>color</key>
                                 <value>
-                                  <r>0.0941176</r>
-                                  <g>0.823529</g>
-                                  <b>0</b>
+                                  <r>0.905882</r>
+                                  <g>0.176471</g>
+                                  <b>0.180392</b>
                                   <a>1</a>
                                 </value>
                               </property>
@@ -40130,7 +40141,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -40505,7 +40516,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -40880,7 +40891,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -41255,7 +41266,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -41630,7 +41641,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -42005,7 +42016,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -42380,7 +42391,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -42755,7 +42766,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -43130,7 +43141,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -43505,7 +43516,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -43880,7 +43891,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -44255,7 +44266,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -44630,7 +44641,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -45005,7 +45016,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -45380,7 +45391,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -45755,7 +45766,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -46130,7 +46141,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -46505,7 +46516,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -46880,7 +46891,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -47255,7 +47266,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -47630,7 +47641,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -48005,7 +48016,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -48380,7 +48391,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -48755,7 +48766,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -49130,7 +49141,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -49505,7 +49516,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -49880,7 +49891,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -50255,7 +50266,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -50630,7 +50641,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -51005,7 +51016,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -51380,7 +51391,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
@@ -51755,7 +51766,7 @@ Macros
                               </property>
                               <property type="s">
                                 <key>script</key>
-                                <value>${Button_Text.lua}</value>
+                                <value>${Text.lua}</value>
                               </property>
                               <property type="i">
                                 <key>shape</key>
