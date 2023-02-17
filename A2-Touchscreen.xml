@@ -1,10 +1,6 @@
 <lexml version="3">
   <node ID="704cb584-8455-11ec-b89a-04922658cf47" type="GROUP">
     <properties>
-      <property type="s">
-        <key>projectName</key>
-        <value>A2-Touchscreen</value>
-      </property>
       <property type="b">
         <key>background</key>
         <value>1</value>
@@ -46,6 +42,10 @@
       <property type="s">
         <key>name</key>
         <value>group</value>
+      </property>
+      <property type="s">
+        <key>projectName</key>
+        <value>A2-Touchscreen</value>
       </property>
       <property type="i">
         <key>orientation</key>
