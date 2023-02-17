@@ -517,6 +517,10 @@
                             <key>interactive</key>
                             <value>0</value>
                           </property>
+                          <property type="i">
+                            <key>iterableButton</key>
+                            <value>1</value>
+                          </property>
                           <property type="b">
                             <key>locked</key>
                             <value>0</value>
@@ -598,7 +602,7 @@
                               </property>
                               <property type="b">
                                 <key>grabFocus</key>
-                                <value>1</value>
+                                <value>0</value>
                               </property>
                               <property type="b">
                                 <key>interactive</key>
@@ -1035,7 +1039,7 @@
                           </property>
                           <property type="b">
                             <key>outline</key>
-                            <value>1</value>
+                            <value>0</value>
                           </property>
                           <property type="i">
                             <key>outlineStyle</key>
@@ -1122,7 +1126,7 @@
                               </property>
                               <property type="b">
                                 <key>outline</key>
-                                <value>1</value>
+                                <value>0</value>
                               </property>
                               <property type="i">
                                 <key>outlineStyle</key>
@@ -1306,7 +1310,7 @@
                           <property type="r">
                             <key>frame</key>
                             <value>
-                              <x>1658</x>
+                              <x>1715</x>
                               <y>106</y>
                               <w>190</w>
                               <h>766</h>
@@ -1508,7 +1512,7 @@
                                   </property>
                                   <property type="b">
                                     <key>outline</key>
-                                    <value>1</value>
+                                    <value>0</value>
                                   </property>
                                   <property type="i">
                                     <key>outlineStyle</key>
@@ -1815,7 +1819,7 @@
                                   </property>
                                   <property type="b">
                                     <key>outline</key>
-                                    <value>1</value>
+                                    <value>0</value>
                                   </property>
                                   <property type="i">
                                     <key>outlineStyle</key>
@@ -2122,7 +2126,7 @@
                                   </property>
                                   <property type="b">
                                     <key>outline</key>
-                                    <value>1</value>
+                                    <value>0</value>
                                   </property>
                                   <property type="i">
                                     <key>outlineStyle</key>
@@ -2429,7 +2433,7 @@
                                   </property>
                                   <property type="b">
                                     <key>outline</key>
-                                    <value>1</value>
+                                    <value>0</value>
                                   </property>
                                   <property type="i">
                                     <key>outlineStyle</key>
@@ -2653,7 +2657,7 @@
               </property>
               <property type="b">
                 <key>outline</key>
-                <value>1</value>
+                <value>0</value>
               </property>
               <property type="i">
                 <key>outlineStyle</key>
@@ -2712,10 +2716,10 @@
                   <property type="r">
                     <key>frame</key>
                     <value>
-                      <x>6</x>
+                      <x>0</x>
                       <y>0</y>
-                      <w>120</w>
-                      <h>81</h>
+                      <w>132</w>
+                      <h>84</h>
                     </value>
                   </property>
                   <property type="b">
@@ -2740,7 +2744,7 @@
                   </property>
                   <property type="b">
                     <key>outline</key>
-                    <value>1</value>
+                    <value>0</value>
                   </property>
                   <property type="i">
                     <key>outlineStyle</key>
@@ -51883,8 +51887,8 @@ Macros
                 <value>
                   <x>41</x>
                   <y>1037</y>
-                  <w>120</w>
-                  <h>80</h>
+                  <w>132</w>
+                  <h>84</h>
                 </value>
               </property>
               <property type="b">
@@ -51970,8 +51974,8 @@ Macros
                     <value>
                       <x>0</x>
                       <y>0</y>
-                      <w>120</w>
-                      <h>80</h>
+                      <w>132</w>
+                      <h>84</h>
                     </value>
                   </property>
                   <property type="b">
@@ -51996,7 +52000,7 @@ Macros
                   </property>
                   <property type="b">
                     <key>outline</key>
-                    <value>1</value>
+                    <value>0</value>
                   </property>
                   <property type="i">
                     <key>outlineStyle</key>
@@ -52076,8 +52080,8 @@ Macros
                     <value>
                       <x>0</x>
                       <y>0</y>
-                      <w>120</w>
-                      <h>80</h>
+                      <w>132</w>
+                      <h>84</h>
                     </value>
                   </property>
                   <property type="b">
@@ -52191,10 +52195,10 @@ Macros
               <property type="r">
                 <key>frame</key>
                 <value>
-                  <x>1805</x>
-                  <y>1037</y>
-                  <w>120</w>
-                  <h>80</h>
+                  <x>1767</x>
+                  <y>1041</y>
+                  <w>132</w>
+                  <h>84</h>
                 </value>
               </property>
               <property type="b">
@@ -52219,7 +52223,7 @@ Macros
               </property>
               <property type="b">
                 <key>outline</key>
-                <value>1</value>
+                <value>0</value>
               </property>
               <property type="i">
                 <key>outlineStyle</key>
@@ -52280,8 +52284,8 @@ Macros
                     <value>
                       <x>0</x>
                       <y>0</y>
-                      <w>120</w>
-                      <h>80</h>
+                      <w>132</w>
+                      <h>84</h>
                     </value>
                   </property>
                   <property type="b">
@@ -52306,7 +52310,7 @@ Macros
                   </property>
                   <property type="b">
                     <key>outline</key>
-                    <value>1</value>
+                    <value>0</value>
                   </property>
                   <property type="i">
                     <key>outlineStyle</key>
@@ -52409,8 +52413,8 @@ Macros
                     <value>
                       <x>0</x>
                       <y>0</y>
-                      <w>120</w>
-                      <h>80</h>
+                      <w>132</w>
+                      <h>84</h>
                     </value>
                   </property>
                   <property type="b">
@@ -52435,7 +52439,7 @@ Macros
                   </property>
                   <property type="b">
                     <key>outline</key>
-                    <value>1</value>
+                    <value>0</value>
                   </property>
                   <property type="i">
                     <key>outlineStyle</key>
@@ -52639,7 +52643,7 @@ Macros
                   </property>
                   <property type="b">
                     <key>outline</key>
-                    <value>1</value>
+                    <value>0</value>
                   </property>
                   <property type="i">
                     <key>outlineStyle</key>
