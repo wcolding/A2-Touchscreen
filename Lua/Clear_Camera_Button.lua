@@ -26,7 +26,7 @@ function onValueChanged(key)
           -- Macro buttons
           if curChild.name == "Macros" then
             for m = 1, #curChild.children do
-              curChild.children[m].children["Button"].values["x"] = 0
+              curChild.children[m].children["Macro_Button"].values["x"] = 0
             end
           end
         end
