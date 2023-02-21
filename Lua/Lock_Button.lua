@@ -47,12 +47,10 @@ function SetLocked()
           curButton.children['Button'].interactive = bools[state]
         end
       
-      -- Come back to macros after fixing everything
-      --
-      --else
-        --for macro = 1, #curButton.children do
-          --curButton.children[macro].children['Button'].interactive = bools[state]
-        --end
+      else
+        for macro = 1, #curButton.children do
+          curButton.children[macro].children['Macro_Button'].interactive = bools[state]
+        end
       end
     end
   end
