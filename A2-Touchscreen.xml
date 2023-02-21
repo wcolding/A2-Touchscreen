@@ -444,7 +444,7 @@
                       </property>
                       <property type="s">
                         <key>name</key>
-                        <value>A Mix</value>
+                        <value>Mix</value>
                       </property>
                       <property type="i">
                         <key>orientation</key>
@@ -2913,7 +2913,7 @@ Macros
           </node>
           <node ID="9330e29c-aa10-11ec-b5d1-04922658cf47" type="PAGER">
             <properties>
-            <property type="i">
+              <property type="i">
                 <key>autoPager</key>
                 <value>1</value>
               </property>
@@ -3259,11 +3259,11 @@ Macros
                             <value>
                               <x>254</x>
                               <y>44</y>
-                                  <w>120</w>
-                                  <h>160</h>
-                                </value>
-                              </property>
-                              <property type="b">
+                              <w>120</w>
+                              <h>160</h>
+                            </value>
+                          </property>
+                          <property type="b">
                             <key>grabFocus</key>
                             <value>0</value>
                           </property>
@@ -3348,7 +3348,7 @@ Macros
                               <property type="r">
                                 <key>frame</key>
                                 <value>
-                      <x>0</x>
+                                  <x>0</x>
                                   <y>0</y>
                                   <w>120</w>
                                   <h>160</h>
@@ -3362,23 +3362,23 @@ Macros
                                 <key>interactive</key>
                                 <value>1</value>
                               </property>
-                          <property type="b">
-                            <key>locked</key>
-                            <value>0</value>
-                          </property>
-                          <property type="s">
-                            <key>name</key>
+                              <property type="b">
+                                <key>locked</key>
+                                <value>0</value>
+                              </property>
+                              <property type="s">
+                                <key>name</key>
                                 <value>Macro Channel Button</value>
-                          </property>
-                          <property type="i">
-                            <key>orientation</key>
-                            <value>0</value>
-                          </property>
-                          <property type="b">
-                            <key>outline</key>
-                            <value>0</value>
-                          </property>
-                          <property type="i">
+                              </property>
+                              <property type="i">
+                                <key>orientation</key>
+                                <value>0</value>
+                              </property>
+                              <property type="b">
+                                <key>outline</key>
+                                <value>0</value>
+                              </property>
+                              <property type="i">
                                 <key>outlineStyle</key>
                                 <value>1</value>
                               </property>
@@ -3487,7 +3487,7 @@ Macros
                               <property type="r">
                                 <key>frame</key>
                                 <value>
-                      <x>0</x>
+                                  <x>0</x>
                                   <y>0</y>
                                   <w>120</w>
                                   <h>160</h>
