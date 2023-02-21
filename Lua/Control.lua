@@ -1,6 +1,10 @@
 local macroMode = false
 local macroObjects = {}
 
+local xremoteInterval = 5000
+local lastUpdate = 0
+
+
 function init()
   macroObjects = {}
   table.insert(macroObjects, self.children["MacroTabs"])
@@ -8,6 +12,18 @@ function init()
   table.insert(macroObjects, self.children["Editing Msg"])
   macroMode = false
   SetVisibility()
+  RequestXRemote()
+end
+
+function update()
+  if (getMillis() - lastUpdate) > xremoteInterval then
+    RequestXRemote()
+  end
+end
+
+function RequestXRemote()
+  sendOSC('/xremote')
+  lastUpdate = getMillis()
 end
 
 function SetVisibility()
