@@ -22,7 +22,7 @@ end
 function RecalculateGroup()
   macroGroup = {}
   for i = 1, #self.children do
-    if self.children[i].visible and self.children[i].children["Button"].values.x == 1 then
+    if self.children[i].visible and self.children[i].children["Macro Channel Button"].values.x == 1 then
       table.insert(macroGroup, self.children[i].tag)
     end
   end
