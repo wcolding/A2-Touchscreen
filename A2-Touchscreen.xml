@@ -3657,8 +3657,8 @@ Macros
               <property type="r">
                 <key>frame</key>
                 <value>
-                  <x>41</x>
-                  <y>1037</y>
+                  <x>1767</x>
+                  <y>1040</y>
                   <w>132</w>
                   <h>84</h>
                 </value>
@@ -3967,8 +3967,8 @@ Macros
               <property type="r">
                 <key>frame</key>
                 <value>
-                  <x>1767</x>
-                  <y>1041</y>
+                  <x>41</x>
+                  <y>1040</y>
                   <w>132</w>
                   <h>84</h>
                 </value>
